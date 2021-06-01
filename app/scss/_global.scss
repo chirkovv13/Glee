@@ -1,3 +1,40 @@
 body {
+  font-size: 14px;
+  line-height: 2.28;
+  @extend %rubik-400;
+  color: #7b7b7b;
+}
 
+.wrapper {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.container {
+  max-width: 1195px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 146px;
+  height: 39px;
+  object-fit: contain;
 }

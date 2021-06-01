@@ -5,6 +5,143 @@
 
 
 
+.header {
+  padding-top: 48px;
+  margin-bottom: 45px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu {
+
+  &__list {
+    display: flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 35px;                    
+  }
+
+  &__link {
+    @extend %rubik-500;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #436372;
+  }
+}
+
+.user-menu {
+  display: flex;
+
+  /* .user-menu__item */
+
+  &__item {
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  /* .user-menu__link */
+
+  &__link {
+    position: relative;
+  }
+
+  &__link::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+  }
+
+  /* .user-menu__link--search */
+
+  &__link--search::before {
+    content: url('../images/icons/searсh.svg');
+    background-color: #edf1f4;
+    border-radius: 25px;
+  }
+
+  /* .user-menu__item--double */
+
+  &__item--double {
+    display: flex;
+    justify-content: center;
+    background-color: #fcd7b6;
+    border-radius: 25px;
+  }
+
+  /* .user-menu__link--favorites */
+
+  &__link--favorites::before {
+    content: url('../images/icons/favorites.svg');
+    width: 90px;
+    height: 32px;
+    margin-top: 9px;
+    border-right: 1px solid #fde7d3;
+  }
+
+  /* .user-menu__num */
+
+  &__num {
+    position: absolute;
+    top: 11px;
+    left: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    @extend %dmsans-400;
+    font-size: 10px;
+    color: #243f4d;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+  }
+
+  /* .user-menu__link--cart */
+
+  &__link--cart::before {
+    content: url('../images/icons/cart.svg');
+    width: 90px;
+    height: 32px;
+    margin-top: 9px;
+  }
+
+  /* .user-menu__btn */
+
+  &__btn {
+    padding: 0;
+    background-color: #a3bbc8;
+    border: none;
+    border-radius: 25px;
+  }
+
+  &__btn::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 9px;
+    padding-left: 2px;
+  }
+
+  /* .user-menu__btn--filter */
+
+  &__btn--filter::before {
+    content: url('../images/icons/filter.svg');
+  }
+}
+
+
 
 
 

@@ -1,6 +1,15 @@
 @font-face {
   font-display: swap;
   font-style: normal;
+  font-weight: 300;
+  font-family: 'Rubik-Light', sans-serif;
+  src: local('Rubik-Light'),
+       url('../fonts/Rubik-Light.woff2') format('woff2'),
+       url('../fonts/Rubik-Light.woff') format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
   font-weight: 400;
   font-family: 'Rubik-Regular', sans-serif;
   src: local('Rubik-Regular'),
@@ -32,7 +41,7 @@
   font-display: swap;
   font-style: normal;
   font-weight: 400;
-  font-family: 'DMSans-Regular', serif;
+  font-family: 'DMSans-Regular', sans-serif;
   src: local('DMSans-Regular'),
        url('../fonts/DMSans-Regular.woff2') format('woff2'),
        url('../fonts/DMSans-Regular.woff') format('woff');
@@ -42,7 +51,7 @@
   font-display: swap;
   font-style: normal;
   font-weight: 500;
-  font-family: 'DMSans-Medium', serif;
+  font-family: 'DMSans-Medium', sans-serif;
   src: local('DMSans-Medium'),
        url('../fonts/DMSans-Medium.woff2') format('woff2'),
        url('../fonts/DMSans-Medium.woff') format('woff');
@@ -51,7 +60,7 @@
 @font-face {font-display: swap;
   font-style: normal;
   font-weight: 700;
-  font-family: 'DMSans-Bold', serif;
+  font-family: 'DMSans-Bold', sans-serif;
   src: local('DMSans-Bold'),
        url('../fonts/DMSans-Bold.woff2') format('woff2'),
        url('../fonts/DMSans-Bold.woff') format('woff');
@@ -60,9 +69,29 @@
 @font-face {
   font-display: swap;
   font-style: normal;
+  font-weight: 600;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  src: local('Poppins-SemiBold'),
+       url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+       url('../fonts/Poppins-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-style: normal;
   font-weight: 700;
-  font-family: 'Poppins-Bold', serif;
+  font-family: 'Poppins-Bold', sans-serif;
   src: local('Poppins-Bold'),
        url('../fonts/Poppins-Bold.woff2') format('woff2'),
        url('../fonts/Poppins-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Nunito-Bold', sans-serif;
+  src: local('Nunito-Bold'),
+       url('../fonts/Nunito-Bold.woff2') format('woff2'),
+       url('../fonts/Nunito-Bold.woff') format('woff');
 }
