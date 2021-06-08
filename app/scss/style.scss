@@ -218,7 +218,7 @@
 
 .top-slider {
   
-  &__bg {
+  &__inner {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -227,12 +227,11 @@
   &__item {
     display: flex;
     justify-content: space-between;
-    padding: 0 5px;
+    padding: 224px 5px 281px;
   }
 
   &__content {
     max-width: 470px;
-    padding: 224px 0 207px;
   }
 
   &__title {
@@ -268,9 +267,12 @@
 }
 
 .slick-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 45px;
   display: flex;
   justify-content: center;
-  padding-bottom: 45px;
+  transform: translateX(-50%);
 
   li {
     padding: 0 6px;
