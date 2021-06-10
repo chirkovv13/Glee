@@ -94,7 +94,7 @@
             <div class="container">
               <div class="top-slider__item">
                 <div class="top-slider__content">
-                  <h1 class="top-slider__title">Smart and trendy</h1>
+                  <h1 class="top-slider__subtitle">Smart and trendy</h1>
                   <div class="top-slider__text">
                     <p>
                       Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
@@ -102,7 +102,9 @@
                   </div>
                   <a class="top-slider__btn button" href="#">Shop Now</a>
                 </div>
-                <img class="top-slider__img" src="images/content/slider/img-1.png" alt="photos of furniture">
+                <div class="top-slider__img">
+                  <img src="images/content/slider/img-1.png" alt="photos of furniture">
+                </div>
               </div>
             </div>
           </div>
@@ -111,7 +113,7 @@
             <div class="container">
               <div class="top-slider__item">
                 <div class="top-slider__content">
-                  <h1 class="top-slider__title">Smart and trendy</h1>
+                  <h1 class="top-slider__subtitle">Smart and trendy</h1>
                   <div class="top-slider__text">
                     <p>
                       Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
@@ -119,7 +121,9 @@
                   </div>
                   <a class="top-slider__btn button" href="#">Shop Now</a>
                 </div>
-                <img class="top-slider__img" src="images/content/slider/img-1.png" alt="photos of furniture">
+                <div class="top-slider__img">
+                  <img src="images/content/slider/img-1.png" alt="photos of furniture">
+                </div>
               </div>
             </div>
           </div>
@@ -128,7 +132,7 @@
             <div class="container">
               <div class="top-slider__item">
                 <div class="top-slider__content">
-                  <h1 class="top-slider__title">Smart and trendy</h1>
+                  <h1 class="top-slider__subtitle">Smart and trendy</h1>
                   <div class="top-slider__text">
                     <p>
                       Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
@@ -136,7 +140,9 @@
                   </div>
                   <a class="top-slider__btn button" href="#">Shop Now</a>
                 </div>
-                <img class="top-slider__img" src="images/content/slider/img-1.png" alt="photos of furniture">
+                <div class="top-slider__img">
+                  <img src="images/content/slider/img-1.png" alt="photos of furniture">
+                </div>
               </div>
             </div>
           </div>
@@ -188,7 +194,7 @@
     <section class="week-filter">
       <div class="container">
         <h1 class="week-filter__title title">Products of the week</h1>
-                                        
+
         <ul class="week-filter__btn filter-btn">
           <li class="filter-btn__item">
             <button class="filter-btn__button" data-filter=".all" type="button">All</button>
@@ -213,16 +219,18 @@
 
         <ul class="week-filter__list">
 
-          <li class="week-filter__item mix category-decor">
-            <img class="week-filter__img" src="images/content/filter/wooden-radio.png" alt="Wooden radio">
+          <li class="week-filter__item mix all category-decor">
+            <div class="week-filter__img">
+              <img src="images/content/filter/wooden-radio.png" alt="Wooden radio">
+            </div>
             <div class="week-filter__content">
               <h2 class="week-filter__subtitle subtitle">Wooden radio</h2>
               <span class="week-filter__cost">$29.00</span>
             </div>
 
             <ul class="week-filter__hover hover-btn">
-              <li class="hover-btn">
-                <a class="hover-btn__view" href="#">
+              <li class="hover-btn__item">
+                <a class="hover-btn__icon" href="#">
                   <svg class="hover-btn__filter-view" width="20px" height="20px">
                     <use href="images/sprite.svg#filter-view"></use>
                   </svg>
@@ -230,8 +238,8 @@
                 </a>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__cart">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-cart" width="22px" height="20px">
                     <use href="images/sprite.svg#filter-cart"></use>
                   </svg>
@@ -239,8 +247,8 @@
                 </button>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__favorites">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-favorites" width="22px" height="18px">
                     <use href="images/sprite.svg#filter-favorites"></use>
                   </svg>
@@ -249,18 +257,20 @@
               </li>
             </ul>
           </li>
-          
 
-          <li class="week-filter__item mix category-chairs">
-            <img class="week-filter__img" src="images/content/filter/wooden-chair.png" alt="Wooden chair">
+
+          <li class="week-filter__item mix all category-chairs">
+            <div class="week-filter__img">
+              <img src="images/content/filter/wooden-chair.png" alt="Wooden chair">
+            </div>
             <div class="week-filter__content">
               <h2 class="week-filter__subtitle subtitle">Wooden chair</h2>
               <span class="week-filter__cost">$29.00</span>
             </div>
 
             <ul class="week-filter__hover hover-btn">
-              <li class="hover-btn">
-                <a class="hover-btn__view" href="#">
+              <li class="hover-btn__item">
+                <a class="hover-btn__icon" href="#">
                   <svg class="hover-btn__filter-view" width="20px" height="20px">
                     <use href="images/sprite.svg#filter-view"></use>
                   </svg>
@@ -268,8 +278,8 @@
                 </a>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__cart">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-cart" width="22px" height="20px">
                     <use href="images/sprite.svg#filter-cart"></use>
                   </svg>
@@ -277,8 +287,8 @@
                 </button>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__favorites">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-favorites" width="22px" height="18px">
                     <use href="images/sprite.svg#filter-favorites"></use>
                   </svg>
@@ -287,18 +297,20 @@
               </li>
             </ul>
           </li>
-          
 
-          <li class="week-filter__item mix category-chairs">
-            <img class="week-filter__img" src="images/content/filter/white-chair.png" alt="White chair">
+
+          <li class="week-filter__item mix all category-chairs">
+            <div class="week-filter__img">
+              <img src="images/content/filter/white-chair.png" alt="White chair">
+            </div>
             <div class="week-filter__content">
               <h2 class="week-filter__subtitle subtitle">White chair</h2>
               <span class="week-filter__cost">$29.00</span>
             </div>
 
             <ul class="week-filter__hover hover-btn">
-              <li class="hover-btn">
-                <a class="hover-btn__view" href="#">
+              <li class="hover-btn__item">
+                <a class="hover-btn__icon" href="#">
                   <svg class="hover-btn__filter-view" width="20px" height="20px">
                     <use href="images/sprite.svg#filter-view"></use>
                   </svg>
@@ -306,8 +318,8 @@
                 </a>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__cart">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-cart" width="22px" height="20px">
                     <use href="images/sprite.svg#filter-cart"></use>
                   </svg>
@@ -315,8 +327,8 @@
                 </button>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__favorites">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-favorites" width="22px" height="18px">
                     <use href="images/sprite.svg#filter-favorites"></use>
                   </svg>
@@ -325,18 +337,20 @@
               </li>
             </ul>
           </li>
-          
 
-          <li class="week-filter__item mix category-furnitures">
-            <img class="week-filter__img" src="images/content/filter/retro-table.png" alt="Retro table">
+
+          <li class="week-filter__item mix all category-furnitures">
+            <div class="week-filter__img">
+              <img src="images/content/filter/retro-table.png" alt="Retro table">
+            </div>
             <div class="week-filter__content">
               <h2 class="week-filter__subtitle subtitle">Retro table</h2>
               <span class="week-filter__cost">$29.00</span>
             </div>
 
             <ul class="week-filter__hover hover-btn">
-              <li class="hover-btn">
-                <a class="hover-btn__view" href="#">
+              <li class="hover-btn__item">
+                <a class="hover-btn__icon" href="#">
                   <svg class="hover-btn__filter-view" width="20px" height="20px">
                     <use href="images/sprite.svg#filter-view"></use>
                   </svg>
@@ -344,8 +358,8 @@
                 </a>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__cart">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-cart" width="22px" height="20px">
                     <use href="images/sprite.svg#filter-cart"></use>
                   </svg>
@@ -353,8 +367,8 @@
                 </button>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__favorites">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-favorites" width="22px" height="18px">
                     <use href="images/sprite.svg#filter-favorites"></use>
                   </svg>
@@ -363,18 +377,20 @@
               </li>
             </ul>
           </li>
-          
 
-          <li class="week-filter__item mix category-decor">
-            <img class="week-filter__img" src="images/content/filter/wooden-radio2.png" alt="Wooden radio">
+
+          <li class="week-filter__item mix all category-decor">
+            <div class="week-filter__img">
+              <img src="images/content/filter/wooden-radio2.png" alt="Wooden radio">
+            </div>
             <div class="week-filter__content">
               <h2 class="week-filter__subtitle subtitle">Wooden radio</h2>
               <span class="week-filter__cost">$29.00</span>
             </div>
 
             <ul class="week-filter__hover hover-btn">
-              <li class="hover-btn">
-                <a class="hover-btn__view" href="#">
+              <li class="hover-btn__item">
+                <a class="hover-btn__icon" href="#">
                   <svg class="hover-btn__filter-view" width="20px" height="20px">
                     <use href="images/sprite.svg#filter-view"></use>
                   </svg>
@@ -382,8 +398,8 @@
                 </a>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__cart">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-cart" width="22px" height="20px">
                     <use href="images/sprite.svg#filter-cart"></use>
                   </svg>
@@ -391,8 +407,8 @@
                 </button>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__favorites">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-favorites" width="22px" height="18px">
                     <use href="images/sprite.svg#filter-favorites"></use>
                   </svg>
@@ -401,18 +417,20 @@
               </li>
             </ul>
           </li>
-          
-          
-          <li class="week-filter__item mix category-chairs">
-            <img class="week-filter__img" src="images/content/filter/wooden-chair2.png" alt="Wooden chair">
+
+
+          <li class="week-filter__item mix all category-chairs">
+            <div class="week-filter__img">
+              <img src="images/content/filter/wooden-chair2.png" alt="Wooden chair">
+            </div>
             <div class="week-filter__content">
               <h2 class="week-filter__subtitle subtitle">Wooden chair</h2>
               <span class="week-filter__cost">$29.00</span>
             </div>
 
             <ul class="week-filter__hover hover-btn">
-              <li class="hover-btn">
-                <a class="hover-btn__view" href="#">
+              <li class="hover-btn__item">
+                <a class="hover-btn__icon" href="#">
                   <svg class="hover-btn__filter-view" width="20px" height="20px">
                     <use href="images/sprite.svg#filter-view"></use>
                   </svg>
@@ -420,8 +438,8 @@
                 </a>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__cart">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-cart" width="22px" height="20px">
                     <use href="images/sprite.svg#filter-cart"></use>
                   </svg>
@@ -429,8 +447,8 @@
                 </button>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__favorites">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-favorites" width="22px" height="18px">
                     <use href="images/sprite.svg#filter-favorites"></use>
                   </svg>
@@ -439,18 +457,20 @@
               </li>
             </ul>
           </li>
-          
 
-          <li class="week-filter__item mix category-chairs">
-            <img class="week-filter__img" src="images/content/filter/white-chair2.png" alt="White chair">
+
+          <li class="week-filter__item mix all category-chairs">
+            <div class="week-filter__img">
+              <img src="images/content/filter/white-chair2.png" alt="White chair">
+            </div>
             <div class="week-filter__content">
               <h2 class="week-filter__subtitle subtitle">White chair</h2>
               <span class="week-filter__cost">$29.00</span>
             </div>
 
             <ul class="week-filter__hover hover-btn">
-              <li class="hover-btn">
-                <a class="hover-btn__view" href="#">
+              <li class="hover-btn__item">
+                <a class="hover-btn__icon" href="#">
                   <svg class="hover-btn__filter-view" width="20px" height="20px">
                     <use href="images/sprite.svg#filter-view"></use>
                   </svg>
@@ -458,8 +478,8 @@
                 </a>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__cart">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-cart" width="22px" height="20px">
                     <use href="images/sprite.svg#filter-cart"></use>
                   </svg>
@@ -467,8 +487,8 @@
                 </button>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__favorites">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-favorites" width="22px" height="18px">
                     <use href="images/sprite.svg#filter-favorites"></use>
                   </svg>
@@ -477,18 +497,20 @@
               </li>
             </ul>
           </li>
-          
 
-          <li class="week-filter__item mix category-furnitures">
-            <img class="week-filter__img" src="images/content/filter/retro-table2.png" alt="Retro table">
+
+          <li class="week-filter__item mix all category-furnitures">
+            <div class="week-filter__img">
+              <img src="images/content/filter/retro-table2.png" alt="Retro table">
+            </div>
             <div class="week-filter__content">
               <h2 class="week-filter__subtitle subtitle">Retro table</h2>
               <span class="week-filter__cost">$29.00</span>
             </div>
 
             <ul class="week-filter__hover hover-btn">
-              <li class="hover-btn">
-                <a class="hover-btn__view" href="#">
+              <li class="hover-btn__item">
+                <a class="hover-btn__icon" href="#">
                   <svg class="hover-btn__filter-view" width="20px" height="20px">
                     <use href="images/sprite.svg#filter-view"></use>
                   </svg>
@@ -496,8 +518,8 @@
                 </a>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__cart">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-cart" width="22px" height="20px">
                     <use href="images/sprite.svg#filter-cart"></use>
                   </svg>
@@ -505,8 +527,8 @@
                 </button>
               </li>
 
-              <li class="hover-btn">
-                <button class="hover-btn__favorites">
+              <li class="hover-btn__item">
+                <button class="hover-btn__icon">
                   <svg class="hover-btn__filter-favorites" width="22px" height="18px">
                     <use href="images/sprite.svg#filter-favorites"></use>
                   </svg>

@@ -1,0 +1,103 @@
+
+// я в коментарии написал название цветов, как бы я их называл, как лучше делать ?
+
+$cod-gray:          #191919;
+// title
+
+$gray:              #8b8b8b;
+// button
+
+$scorpion:          #585858;
+// default-dark
+
+$boulder:           #7b7b7b;
+// default
+
+$westar:            #e8e4df;
+// default-light
+
+$white:             #FFFFFF;
+
+
+$light-apricot:     #fcd7b6;
+// accent
+
+$oasis:             #fde7d3;
+// accent-light
+
+$provincial-pink:   #fef7f0;
+// accent-lighten
+
+$tundora:           #414141;
+// subtitle-darkest
+
+$port-gore:         #1f2044;
+// subtitle-darken
+
+$cello:             #234969;
+// subtitle-dark
+
+$blue-dianne:       #243f4d;
+// subtitle
+
+$blue-bayoux:       #436372;
+// text
+
+$casper:            #a3bbc8;
+// btn
+
+$mystic-medium:     #dae4e9;
+// btn-light
+
+$mystic:            #edf1f4;
+// btn-lighten
+
+
+%rubik-300 {
+  font-weight: 300;
+  font-family: 'Rubik-Light', sans-serif;
+}
+%rubik-400 {
+  font-weight: 400;
+  font-family: 'Rubik-Regular', sans-serif;
+}
+
+%rubik-500 {
+  font-weight: 500;
+  font-family: 'Rubik-Medium', sans-serif;
+}
+
+%rubik-700 {
+  font-weight: 700;
+  font-family: 'Rubik-Bold', sans-serif;
+}
+
+%dmsans-400 {
+  font-weight: 400;
+  font-family: 'DMSans-Regular', sans-serif;
+}
+
+%dmsans-500 {
+  font-weight: 500;
+  font-family: 'DMSans-Medium', sans-serif;
+}
+
+%dmsans-700 {
+  font-weight: 700;
+  font-family: 'DMSans-Bold', sans-serif;
+}
+
+%poppins-600 {
+  font-weight: 600;
+  font-family: 'Poppins-SemiBold', sans-serif;
+}
+
+%poppins-700 {
+  font-weight: 700;
+  font-family: 'Poppins-Bold', sans-serif;
+}
+
+%nunito-700 {
+  font-weight: 700;
+  font-family: 'Nunito-Bold', sans-serif;
+}
