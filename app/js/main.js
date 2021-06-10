@@ -7,4 +7,8 @@ $ (function () {
     fade: true
   })
 
+
+
+  var mixer = mixitup('.week-filter__list');
+
 });

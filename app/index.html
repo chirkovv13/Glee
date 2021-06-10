@@ -72,8 +72,10 @@
           </li>
 
           <li class="user-menu__item">
-            <button class="user-menu__btn user-menu__btn--filter" type="button"></button>
-            <span class="sr-only">catalog view</span>
+            <button class="user-menu__btn user-menu__btn--filter" type="button">
+              <span class="sr-only">catalog view</span>
+            </button>
+
           </li>
 
         </ul>
@@ -88,7 +90,7 @@
       <div class="wrapper">
         <div class="top-slider">
 
-          <div class="top-slider__inner" style="background-image: url('images/top-slider-bg.jpg');">
+          <div class="top-slider__inner" style="background-image: url('images/content/slider/top-slider-bg.jpg');">
             <div class="container">
               <div class="top-slider__item">
                 <div class="top-slider__content">
@@ -100,12 +102,12 @@
                   </div>
                   <a class="top-slider__btn button" href="#">Shop Now</a>
                 </div>
-                <img class="top-slider__img" src="images/slider/img-1.png" alt="photos of furniture">
+                <img class="top-slider__img" src="images/content/slider/img-1.png" alt="photos of furniture">
               </div>
             </div>
           </div>
 
-          <div class="top-slider__inner" style="background-image: url('images/top-slider-bg.jpg');">
+          <div class="top-slider__inner" style="background-image: url('images/content/slider/top-slider-bg.jpg');">
             <div class="container">
               <div class="top-slider__item">
                 <div class="top-slider__content">
@@ -117,12 +119,12 @@
                   </div>
                   <a class="top-slider__btn button" href="#">Shop Now</a>
                 </div>
-                <img class="top-slider__img" src="images/slider/img-1.png" alt="photos of furniture">
+                <img class="top-slider__img" src="images/content/slider/img-1.png" alt="photos of furniture">
               </div>
             </div>
           </div>
 
-          <div class="top-slider__inner" style="background-image: url('images/top-slider-bg.jpg');">
+          <div class="top-slider__inner" style="background-image: url('images/content/slider/top-slider-bg.jpg');">
             <div class="container">
               <div class="top-slider__item">
                 <div class="top-slider__content">
@@ -134,7 +136,7 @@
                   </div>
                   <a class="top-slider__btn button" href="#">Shop Now</a>
                 </div>
-                <img class="top-slider__img" src="images/slider/img-1.png" alt="photos of furniture">
+                <img class="top-slider__img" src="images/content/slider/img-1.png" alt="photos of furniture">
               </div>
             </div>
           </div>
@@ -156,7 +158,8 @@
             </li>
 
             <li class="top-info__item">
-              <div class="top-info__content top-info__content--width" style="background-image: url('images/icons/info-truck.svg');">
+              <div class="top-info__content top-info__content--width"
+                style="background-image: url('images/icons/info-truck.svg');">
                 <h2 class="top-info__subtitle">Delivery.</h2>
                 <div class="top-info__text">
                   <p>
@@ -179,11 +182,344 @@
 
           </ul>
         </div>
-
       </div>
     </section>
 
-    
+    <section class="week-filter">
+      <div class="container">
+        <h1 class="week-filter__title title">Products of the week</h1>
+                                        
+        <ul class="week-filter__btn filter-btn">
+          <li class="filter-btn__item">
+            <button class="filter-btn__button" data-filter=".all" type="button">All</button>
+          </li>
+
+          <li class="filter-btn__item">
+            <button class="filter-btn__button" data-filter=".category-furnitures" type="button">Furnitures</button>
+          </li>
+
+          <li class="filter-btn__item">
+            <button class="filter-btn__button" data-filter=".category-chairs" type="button">Chairs</button>
+          </li>
+
+          <li class="filter-btn__item">
+            <button class="filter-btn__button" data-filter=".category-lighting" type="button">Lighting</button>
+          </li>
+
+          <li class="filter-btn__item">
+            <button class="filter-btn__button" data-filter=".category-decor" type="button">Decor</button>
+          </li>
+        </ul>
+
+        <ul class="week-filter__list">
+
+          <li class="week-filter__item mix category-decor">
+            <img class="week-filter__img" src="images/content/filter/wooden-radio.png" alt="Wooden radio">
+            <div class="week-filter__content">
+              <h2 class="week-filter__subtitle subtitle">Wooden radio</h2>
+              <span class="week-filter__cost">$29.00</span>
+            </div>
+
+            <ul class="week-filter__hover hover-btn">
+              <li class="hover-btn">
+                <a class="hover-btn__view" href="#">
+                  <svg class="hover-btn__filter-view" width="20px" height="20px">
+                    <use href="images/sprite.svg#filter-view"></use>
+                  </svg>
+                  <span class="sr-only">view the product</span>
+                </a>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__cart">
+                  <svg class="hover-btn__filter-cart" width="22px" height="20px">
+                    <use href="images/sprite.svg#filter-cart"></use>
+                  </svg>
+                  <span class="sr-only">add to cart</span>
+                </button>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__favorites">
+                  <svg class="hover-btn__filter-favorites" width="22px" height="18px">
+                    <use href="images/sprite.svg#filter-favorites"></use>
+                  </svg>
+                  <span class="sr-only">add to favorites</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+          
+
+          <li class="week-filter__item mix category-chairs">
+            <img class="week-filter__img" src="images/content/filter/wooden-chair.png" alt="Wooden chair">
+            <div class="week-filter__content">
+              <h2 class="week-filter__subtitle subtitle">Wooden chair</h2>
+              <span class="week-filter__cost">$29.00</span>
+            </div>
+
+            <ul class="week-filter__hover hover-btn">
+              <li class="hover-btn">
+                <a class="hover-btn__view" href="#">
+                  <svg class="hover-btn__filter-view" width="20px" height="20px">
+                    <use href="images/sprite.svg#filter-view"></use>
+                  </svg>
+                  <span class="sr-only">view the product</span>
+                </a>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__cart">
+                  <svg class="hover-btn__filter-cart" width="22px" height="20px">
+                    <use href="images/sprite.svg#filter-cart"></use>
+                  </svg>
+                  <span class="sr-only">add to cart</span>
+                </button>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__favorites">
+                  <svg class="hover-btn__filter-favorites" width="22px" height="18px">
+                    <use href="images/sprite.svg#filter-favorites"></use>
+                  </svg>
+                  <span class="sr-only">add to favorites</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+          
+
+          <li class="week-filter__item mix category-chairs">
+            <img class="week-filter__img" src="images/content/filter/white-chair.png" alt="White chair">
+            <div class="week-filter__content">
+              <h2 class="week-filter__subtitle subtitle">White chair</h2>
+              <span class="week-filter__cost">$29.00</span>
+            </div>
+
+            <ul class="week-filter__hover hover-btn">
+              <li class="hover-btn">
+                <a class="hover-btn__view" href="#">
+                  <svg class="hover-btn__filter-view" width="20px" height="20px">
+                    <use href="images/sprite.svg#filter-view"></use>
+                  </svg>
+                  <span class="sr-only">view the product</span>
+                </a>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__cart">
+                  <svg class="hover-btn__filter-cart" width="22px" height="20px">
+                    <use href="images/sprite.svg#filter-cart"></use>
+                  </svg>
+                  <span class="sr-only">add to cart</span>
+                </button>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__favorites">
+                  <svg class="hover-btn__filter-favorites" width="22px" height="18px">
+                    <use href="images/sprite.svg#filter-favorites"></use>
+                  </svg>
+                  <span class="sr-only">add to favorites</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+          
+
+          <li class="week-filter__item mix category-furnitures">
+            <img class="week-filter__img" src="images/content/filter/retro-table.png" alt="Retro table">
+            <div class="week-filter__content">
+              <h2 class="week-filter__subtitle subtitle">Retro table</h2>
+              <span class="week-filter__cost">$29.00</span>
+            </div>
+
+            <ul class="week-filter__hover hover-btn">
+              <li class="hover-btn">
+                <a class="hover-btn__view" href="#">
+                  <svg class="hover-btn__filter-view" width="20px" height="20px">
+                    <use href="images/sprite.svg#filter-view"></use>
+                  </svg>
+                  <span class="sr-only">view the product</span>
+                </a>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__cart">
+                  <svg class="hover-btn__filter-cart" width="22px" height="20px">
+                    <use href="images/sprite.svg#filter-cart"></use>
+                  </svg>
+                  <span class="sr-only">add to cart</span>
+                </button>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__favorites">
+                  <svg class="hover-btn__filter-favorites" width="22px" height="18px">
+                    <use href="images/sprite.svg#filter-favorites"></use>
+                  </svg>
+                  <span class="sr-only">add to favorites</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+          
+
+          <li class="week-filter__item mix category-decor">
+            <img class="week-filter__img" src="images/content/filter/wooden-radio2.png" alt="Wooden radio">
+            <div class="week-filter__content">
+              <h2 class="week-filter__subtitle subtitle">Wooden radio</h2>
+              <span class="week-filter__cost">$29.00</span>
+            </div>
+
+            <ul class="week-filter__hover hover-btn">
+              <li class="hover-btn">
+                <a class="hover-btn__view" href="#">
+                  <svg class="hover-btn__filter-view" width="20px" height="20px">
+                    <use href="images/sprite.svg#filter-view"></use>
+                  </svg>
+                  <span class="sr-only">view the product</span>
+                </a>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__cart">
+                  <svg class="hover-btn__filter-cart" width="22px" height="20px">
+                    <use href="images/sprite.svg#filter-cart"></use>
+                  </svg>
+                  <span class="sr-only">add to cart</span>
+                </button>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__favorites">
+                  <svg class="hover-btn__filter-favorites" width="22px" height="18px">
+                    <use href="images/sprite.svg#filter-favorites"></use>
+                  </svg>
+                  <span class="sr-only">add to favorites</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+          
+          
+          <li class="week-filter__item mix category-chairs">
+            <img class="week-filter__img" src="images/content/filter/wooden-chair2.png" alt="Wooden chair">
+            <div class="week-filter__content">
+              <h2 class="week-filter__subtitle subtitle">Wooden chair</h2>
+              <span class="week-filter__cost">$29.00</span>
+            </div>
+
+            <ul class="week-filter__hover hover-btn">
+              <li class="hover-btn">
+                <a class="hover-btn__view" href="#">
+                  <svg class="hover-btn__filter-view" width="20px" height="20px">
+                    <use href="images/sprite.svg#filter-view"></use>
+                  </svg>
+                  <span class="sr-only">view the product</span>
+                </a>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__cart">
+                  <svg class="hover-btn__filter-cart" width="22px" height="20px">
+                    <use href="images/sprite.svg#filter-cart"></use>
+                  </svg>
+                  <span class="sr-only">add to cart</span>
+                </button>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__favorites">
+                  <svg class="hover-btn__filter-favorites" width="22px" height="18px">
+                    <use href="images/sprite.svg#filter-favorites"></use>
+                  </svg>
+                  <span class="sr-only">add to favorites</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+          
+
+          <li class="week-filter__item mix category-chairs">
+            <img class="week-filter__img" src="images/content/filter/white-chair2.png" alt="White chair">
+            <div class="week-filter__content">
+              <h2 class="week-filter__subtitle subtitle">White chair</h2>
+              <span class="week-filter__cost">$29.00</span>
+            </div>
+
+            <ul class="week-filter__hover hover-btn">
+              <li class="hover-btn">
+                <a class="hover-btn__view" href="#">
+                  <svg class="hover-btn__filter-view" width="20px" height="20px">
+                    <use href="images/sprite.svg#filter-view"></use>
+                  </svg>
+                  <span class="sr-only">view the product</span>
+                </a>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__cart">
+                  <svg class="hover-btn__filter-cart" width="22px" height="20px">
+                    <use href="images/sprite.svg#filter-cart"></use>
+                  </svg>
+                  <span class="sr-only">add to cart</span>
+                </button>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__favorites">
+                  <svg class="hover-btn__filter-favorites" width="22px" height="18px">
+                    <use href="images/sprite.svg#filter-favorites"></use>
+                  </svg>
+                  <span class="sr-only">add to favorites</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+          
+
+          <li class="week-filter__item mix category-furnitures">
+            <img class="week-filter__img" src="images/content/filter/retro-table2.png" alt="Retro table">
+            <div class="week-filter__content">
+              <h2 class="week-filter__subtitle subtitle">Retro table</h2>
+              <span class="week-filter__cost">$29.00</span>
+            </div>
+
+            <ul class="week-filter__hover hover-btn">
+              <li class="hover-btn">
+                <a class="hover-btn__view" href="#">
+                  <svg class="hover-btn__filter-view" width="20px" height="20px">
+                    <use href="images/sprite.svg#filter-view"></use>
+                  </svg>
+                  <span class="sr-only">view the product</span>
+                </a>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__cart">
+                  <svg class="hover-btn__filter-cart" width="22px" height="20px">
+                    <use href="images/sprite.svg#filter-cart"></use>
+                  </svg>
+                  <span class="sr-only">add to cart</span>
+                </button>
+              </li>
+
+              <li class="hover-btn">
+                <button class="hover-btn__favorites">
+                  <svg class="hover-btn__filter-favorites" width="22px" height="18px">
+                    <use href="images/sprite.svg#filter-favorites"></use>
+                  </svg>
+                  <span class="sr-only">add to favorites</span>
+                </button>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
 
   </main>
 
@@ -194,7 +530,6 @@
       <div class="footer-top">
 
         <div class="footer-top__items footer-top__contact">
-
 
           <a class="footer-top__logo logo" href="#">
             <img src="images/logo.svg" alt="glee company logo">
