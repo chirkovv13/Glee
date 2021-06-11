@@ -1,3 +1,25 @@
+.filter-btn {
+  display: flex;
+  justify-content: center;
+
+  &__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &__button {
+    font-size: 16px;
+    line-height: 1.3;
+    @extend %dmsans-700;
+    color: $gray;
+    background-color: transparent;
+    border: none;
+    
+    &.mixitup-control-active {
+      color: $cod-gray;
+    }
+  }
+}
+
 .week-filter {
   padding: 66px 0 85px;
   text-align: center;
@@ -9,12 +31,15 @@
   &__btn {
     margin-bottom: 80px;
   }
-
+  
   &__list {
     display: grid;
     grid-template: 1fr 1fr / repeat(4, 1fr);
     grid-gap: 40px 30px;
   }
+}
+
+.product-page {
 
   &__item {
     position: relative;
@@ -27,7 +52,7 @@
     border-radius: 10px;
     box-shadow: 0px 6px 47px 3px rgba(37, 37, 37, 0.05);
    
-    &:hover .week-filter__hover {
+    &:hover .product-page__hover {
       z-index: 1;
       opacity: 1;
     }
@@ -62,28 +87,6 @@
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: z-index 0.3s, opacity 0.3s;
-  }
-}
-
-.filter-btn {
-  display: flex;
-  justify-content: center;
-
-  &__item:not(:last-child) {
-    margin-right: 20px;
-  }
-
-  &__button {
-    font-size: 16px;
-    line-height: 1.3;
-    @extend %dmsans-700;
-    color: $gray;
-    background-color: transparent;
-    border: none;
-    
-    &.mixitup-control-active {
-      color: $cod-gray;
-    }
   }
 }
 
