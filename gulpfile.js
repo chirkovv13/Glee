@@ -21,7 +21,7 @@ function htmlInclude() {
       prefix: '@@',
       basepath: '@file'
     }))
-    .pipe(dest('app'));
+    .pipe(dest('.'));
 }
 
  
