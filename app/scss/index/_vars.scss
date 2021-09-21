@@ -117,3 +117,10 @@ $btn-lightest:      #b3b7b5;
   font-weight: 700;
   font-family: 'Nunito-Bold', sans-serif;
 }
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
