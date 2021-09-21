@@ -6,15 +6,16 @@
 // на последок будут еще какие-то допы или это впринципе все?
 
 $cod-gray:          #191919;
-// title
+$title:             #191919;
 
 $gray:              #8b8b8b;
-// button
+$button:            #8b8b8b;
 
 $scorpion:          #585858;
 // default-dark
 
 $boulder:           #7b7b7b;
+$default:           #7b7b7b;
 // default
 
 $westar:            #e8e4df;
@@ -34,6 +35,8 @@ $provincial-pink:   #fef7f0;
 
 $accent-lightest:   #feefe2;
 
+$bg-light:          #f8f8f8;
+
 $tundora:           #414141;
 // subtitle-darkest
 
@@ -51,7 +54,10 @@ $text:              #436372;
 // text
 
 $casper:            #a3bbc8;
-// btn
+$unaccent-lighten:  #a3bbc8;
+$btn:               $unaccent-lighten;
+$descr:             $unaccent-lighten;
+
 
 $mystic-medium:     #dae4e9;
 // btn-light
