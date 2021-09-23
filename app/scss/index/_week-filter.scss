@@ -7,7 +7,7 @@
   }
 
   &__btn {
-    margin-bottom: 80px;
+    margin-bottom: 72px;
   }
   
   &__list {
@@ -53,7 +53,7 @@
   &__cost {
     font-size: 16px;
     @extend %dmsans-700;
-    color: $casper;
+    color: $unaccent-lighten
   }
 
   &__hover {
@@ -80,7 +80,7 @@
     align-items: center;
     width: 45px;
     height: 45px;
-    fill: $casper;
+    fill: $unaccent-lighten;
     background-color: $white;
     border: none;
     border-radius: 50%;
@@ -88,7 +88,7 @@
     transition: fill 0.5s, background-color 0.5s;
     &:hover {
       fill: $white;
-      background-color: $casper;
+      background-color: $unaccent-lighten;
     }
   }
 }

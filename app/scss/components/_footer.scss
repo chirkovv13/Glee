@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 75px 0 65px;
-  border-bottom: 1px solid $mystic-medium;
+  border-bottom: 1px solid $btn-light;
 
   &__items {
     line-height: 1.7;
@@ -33,7 +33,7 @@
     font-size: 16px;
     @extend %dmsans-700;
     text-transform: uppercase;
-    color: $port-gore;
+    color: $subtitle-darken;
 	}
 
 	&__text {
@@ -50,12 +50,12 @@
     padding: 8px 11px 9px;
     font-size: 12px;
     @extend %dmsans-400;
-    color: $cello;
-    background-color: $provincial-pink;
+    color: $subtitle-dark;
+    background-color: $accent-lighten;
     border: none;
 
     &::placeholder {
-      color: $cello;
+      color: $subtitle-dark;
     }
 	}
 
@@ -87,6 +87,6 @@
 	}
     
   &__item:not(:last-child) {
-    border-right: 1px solid $boulder;
+    border-right: 1px solid $default;
   }
 }

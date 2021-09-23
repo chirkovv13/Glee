@@ -1,77 +1,52 @@
-
-// я в коментарии написал название цветов, как бы я их называл, как лучше делать ? ... 11.06 - я уже понял как лучше делать, знакомый много всего про переменные сказал, что можно переменные переменных делать, обобщающие, для фонт сайз, ну крчмного всего там можно сделать, до переменных только завтра наверное доберусь и буду что-то пробовать
-
-// возможно ли stylelint сделать чтобы он работал в режиме реального времени, при этом не отрубая gulp?
-
-// на последок будут еще какие-то допы или это впринципе все?
-
-$cod-gray:          #191919;
-$title:             #191919;
-
-$title-dark:        #262626;
-
-$gray:              #8b8b8b;
-$button:            #8b8b8b;
-
-$scorpion:          #585858;
-// default-dark
-
-$boulder:           #7b7b7b;
-$default:           #7b7b7b;
-
-$westar:            #e8e4df;
-// default-light
-
-$default-lighten:   #e0e0e0;
-
+// colors
 
 $white:             #ffffff;
 
+$default-dark:      #585858;
 
-$light-apricot:     #fcd7b6;
-// accent
+$default:           #7b7b7b;
 
-$oasis:             #fde7d3;
-// accent-light
+$default-light:     #e8e4df;
 
-$provincial-pink:   #fef7f0;
-$accent-lighten:   #fef7f0;
+$default-lighten:   #e0e0e0;
+
+$accent:            #fcd7b6;
+
+$accent-light:      #fde7d3;
+
+$accent-lighten:    #fef7f0;
 
 $accent-lightest:   #feefe2;
 
-$bg-light:          #f8f8f8;
-
-$tundora:           #414141;
-// subtitle-darkest
-
-$port-gore:         #1f2044;
-// subtitle-darken
-
-$cello:             #234969;
-// subtitle-dark
-
-$blue-dianne:       #243f4d;
-// subtitle
-
-$blue-bayoux:       #436372;
-$text:              #436372;
-// text
-
-$casper:            #a3bbc8;
 $unaccent-lighten:  #a3bbc8;
 $btn:               $unaccent-lighten;
 $descr:             $unaccent-lighten;
 
+$button:            #8b8b8b;
 
-$mystic-medium:     #dae4e9;
-// btn-light
+$btn-light:         #dae4e9;
 
-$mystic:            #edf1f4;
-// btn-lighten
+$btn-lighten:       #edf1f4;
 
 $btn-lightest:      #b3b7b5;
 
+$bg-light:          #f8f8f8;
 
+$text:              #436372;
+
+$title:             #191919;
+
+$title-dark:        #262626;
+
+$subtitle-darkest:  #414141;
+
+$subtitle-darken:   #1f2044;
+
+$subtitle-dark:     #234969;
+
+$subtitle:          #243f4d;
+
+// fonts
 
 %rubik-300 {
   font-weight: 300;
@@ -121,6 +96,8 @@ $btn-lightest:      #b3b7b5;
   font-weight: 700;
   font-family: 'Nunito-Bold', sans-serif;
 }
+
+
 
 @function max($numbers...) {
   @return m#{a}x(#{$numbers});
