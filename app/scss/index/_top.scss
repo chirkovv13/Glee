@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 224px 5px 281px;
+    padding: 215px 5px 281px;
   }
 
   &__content {
@@ -22,7 +22,7 @@
     font-size: 72px;
     line-height: 1;
     text-transform: uppercase;
-    color: $blue-dianne;
+    color: $subtitle;
   }
 
   &__text {
@@ -30,7 +30,7 @@
     margin-bottom: 38px;
     font-size: 18px;
     line-height: 1.66;
-    color: $blue-bayoux;
+    color: $text;
   }
 
   &__btn {
@@ -86,7 +86,7 @@
   
   &__list {
     display: flex;
-    background-color: $provincial-pink;
+    background-color: $accent-lighten;
   }
   
   &__item {
@@ -95,11 +95,11 @@
     justify-content: center;
     max-width: 600px;
     width: 100%;
-    padding: 40px 0;
+    padding: 28px 0;
   }
 
   &__item:not(:last-child) {
-    border-right: 1px solid $westar;
+    border-right: 1px solid $default-light;
   }
 
   &__content {
@@ -117,12 +117,12 @@
     margin-bottom: 6px;
     font-size: 18px;
     @extend %dmsans-700;
-    color: $tundora;
+    color: $subtitle-darkest;
   }
 
   &__text {
     font-size: 16px;
     line-height: 1.88;
-    color: $scorpion;
+    color: $default-dark;
   }
 }

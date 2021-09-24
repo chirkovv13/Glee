@@ -1,6 +1,6 @@
 const { src, dest, watch, parallel, series } = require('gulp');
 
-const fileinclude = require('gulp-file-include');
+// const fileinclude = require('gulp-file-include');
 const scss = require('gulp-sass');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
@@ -15,14 +15,14 @@ const gulpStylelint = require('gulp-stylelint');
 
 
 
-function htmlInclude() {
-  return src(['app/index.html'])
-    .pipe(fileinclude({
-      prefix: '@@',
-      basepath: '@file'
-    }))
-    .pipe(dest('.'));
-}
+// function htmlInclude() {
+//   return src(['app/index.html'])
+//     .pipe(fileinclude({
+//       prefix: '@@',
+//       basepath: '@file'
+//     }))
+//     .pipe(dest('.'));
+// }
 
  
 
@@ -46,6 +46,7 @@ function scripts() {
     'node_modules/jquery/dist/jquery.js',
     'node_modules/slick-carousel/slick/slick.js',
     'node_modules/mixitup/dist/mixitup.js',
+    'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
     'app/js/main.js'
   ])
     .pipe(concat('main.min.js'))
@@ -139,7 +140,7 @@ function watching() {
 
 
 
-exports.fileinclude = htmlInclude;
+// exports.fileinclude = htmlInclude;
 exports.styles = styles;
 exports.scripts = scripts;
 exports.svgSprite = svgSprites;
@@ -151,4 +152,5 @@ exports.lintCss = lintCss;
 
 exports.build = series(cleanDist, images, build);
 
-exports.default = parallel(htmlInclude, styles, scripts, svgSprites, browsersync, watching);
+exports.default = parallel(styles, scripts, svgSprites, browsersync, watching);
+// exports.default = parallel(htmlInclude, styles, scripts, svgSprites, browsersync, watching);

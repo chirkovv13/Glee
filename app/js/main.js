@@ -10,5 +10,6 @@ $ (function () {
 
 
   var mixer = mixitup('.week-filter__list');
+  var mixer = mixitup('.new-filter__list');
 
 });
