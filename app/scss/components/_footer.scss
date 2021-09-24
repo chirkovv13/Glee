@@ -1,33 +1,36 @@
-.footer-top {
-  display: flex;
-  justify-content: space-between;
-  padding: 75px 0 65px;
-  border-bottom: 1px solid $btn-light;
+.footer {
 
-  &__items {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0 65px;
+    border-bottom: 1px solid $btn-light;
+  }
+
+  &__top-items {
     line-height: 1.7;
   }
 
-	&__contact,
-  &__nav {
+	&__top-contact,
+  &__top-nav {
     max-width: 200px;
     width: 100%;
 	}
 
-	&__news {
+	&__top-news {
     max-width: 270px;
 	}
 
-	&__logo {
+	&__top-logo {
     margin-top: 8px;
     margin-bottom: 24px;
 	}
       
-  &__item:not(:last-child) {     
+  &__top-item:not(:last-child) {     
     margin-bottom: 10px;
   }
 
-	&__subtitle {
+	&__top-subtitle {
     padding-top: 20px;
     margin-bottom: 15px;
     font-size: 16px;
@@ -36,16 +39,16 @@
     color: $subtitle-darken;
 	}
 
-	&__text {
+	&__top-text {
     margin-bottom: 35px;
 	}
 
-  &__form {
+  &__top-form {
     display: flex;
     align-items: center;
   }
     
-	&__mail {
+	&__top-mail {
     width: 170px;
     padding: 8px 11px 9px;
     font-size: 12px;
@@ -59,34 +62,34 @@
     }
 	}
 
-	&__btn {
+	&__top-btn {
     padding: 7px 18px 9px;
     font-size: 14px;
     line-height: 1.5;
     @extend %dmsans-400;
     border: none;
 	}
-}
 
-.footer-bottom {
+  &__bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 90px;
+  }
 
-	&__menu {
+	&__bottom-menu {
     display: flex;
   }
     
-	&__item {
+	&__bottom-item {
     padding: 0 15px;
 	}
 
-  &__item:last-child {
+  &__bottom-item:last-child {
     padding-right: 0;
 	}
     
-  &__item:not(:last-child) {
+  &__bottom-item:not(:last-child) {
     border-right: 1px solid $default;
   }
 }

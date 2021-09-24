@@ -7,28 +7,10 @@
     justify-content: space-between;
     align-items: center;
   }
-}
 
-.menu {
-  padding-left: 130px;
-
-  &__list {
+  &__user-menu {
     display: flex;
   }
-
-  &__item:not(:last-child) {
-    margin-right: 35px;                    
-  }
-
-  &__link {
-    @extend %rubik-500;
-    font-size: 15px;
-    color: $text;
-  }
-}
-
-.user-menu {
-  display: flex;
 
   &__item {
     line-height: 0;
@@ -112,5 +94,23 @@
 
   &__btn--filter::before {
     content: url('../images/icons/filter.svg');
+  }
+}
+
+.menu {
+  padding-left: 130px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 35px;                    
+  }
+
+  &__link {
+    @extend %rubik-500;
+    font-size: 15px;
+    color: $text;
   }
 }
