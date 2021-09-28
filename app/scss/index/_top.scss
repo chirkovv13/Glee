@@ -46,7 +46,15 @@
   }
 
   &__img {
-    object-fit: contain;
+    max-width: 650px;
+    width: 100%;
+    
+    & img {
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+      
+    }
   }
 }
 
